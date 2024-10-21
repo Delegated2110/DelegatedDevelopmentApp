@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list_category">
+    <sys_ux_list_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <configuration display_value="Delegated development_menu_config">bd88c10ec3911210cfaadacc05013132</configuration>
+        <description/>
+        <order>600</order>
+        <sys_class_name>sys_ux_list_category</sys_class_name>
+        <sys_created_by>ddtest456</sys_created_by>
+        <sys_created_on>2024-10-18 14:22:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8688c10ec3911210cfaadacc05013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+        <sys_update_name>sys_ux_list_category_8688c10ec3911210cfaadacc05013182</sys_update_name>
+        <sys_updated_by>ddtest456</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:22:04</sys_updated_on>
+        <title>Action</title>
+    </sys_ux_list_category>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Delegated development App Config">6488410e9f911210c6c4ba0917b95984</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table</fields>
+        <icon/>
+        <name>Simple List</name>
+        <optional_parameters>listTitle,query,disableInlineEditing</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>simplelist</route_type>
+        <screen_type display_value="Simple List">2c88410e6f911210bd0b558a7a38db77</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>ddtest456</sys_created_by>
+        <sys_created_on>2024-10-18 14:21:59</sys_created_on>
+        <sys_id>6488410e9791121093ce4f805a9db078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List</sys_name>
+        <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+        <sys_update_name>sys_ux_app_route_6488410e9791121093ce4f805a9db078</sys_update_name>
+        <sys_updated_by>ddtest456</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:21:59</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=6488410e9791121093ce4f805a9db078"/>
+</record_update>

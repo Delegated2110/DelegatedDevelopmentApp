@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="A/B Testing Evaluation">18e8c5cec3911210cfaadacc05013139</ais_search_source>
+        <label>A/B Testing Evaluation</label>
+        <name>A/B Testing Evaluation</name>
+        <order>100</order>
+        <search_context_config display_value="Delegated development AI Search Configuration">6488410ef4911210d58ce092b48bb27b</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>ddtest456</sys_created_by>
+        <sys_created_on>2024-10-18 14:23:35</sys_created_on>
+        <sys_id>5ce8c5cec3911210cfaadacc05013155</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>A/B Testing Evaluation</sys_name>
+        <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+        <sys_update_name>sys_search_filter_5ce8c5cec3911210cfaadacc05013155</sys_update_name>
+        <sys_updated_by>ddtest456</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:23:35</sys_updated_on>
+    </sys_search_filter>
+</record_update>

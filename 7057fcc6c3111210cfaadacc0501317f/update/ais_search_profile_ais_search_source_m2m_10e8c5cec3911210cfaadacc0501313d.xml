@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="delegated-development Search Profile">2c88410e22911210b1a7bc0754237883</profile>
+        <search_source display_value="A/B Testing Evaluation">18e8c5cec3911210cfaadacc05013139</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>ddtest456</sys_created_by>
+        <sys_created_on>2024-10-18 14:23:35</sys_created_on>
+        <sys_id>10e8c5cec3911210cfaadacc0501313d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>delegated-development Search Profile.A/B Testing Evaluation</sys_name>
+        <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_10e8c5cec3911210cfaadacc0501313d</sys_update_name>
+        <sys_updated_by>ddtest456</sys_updated_by>
+        <sys_updated_on>2024-10-18 14:23:35</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

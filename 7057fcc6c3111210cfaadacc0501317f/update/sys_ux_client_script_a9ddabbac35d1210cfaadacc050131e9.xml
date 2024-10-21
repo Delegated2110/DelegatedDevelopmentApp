@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home default copy Analyzer">41dd2f3ac35d1210cfaadacc050131c8</macroponent>
+        <name>Clear resource targets</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    api.setState("selectedRESTEndpoint", null);
+    api.setState("selectedRESTMethod", "get");
+    api.setState("selectedClientScript", null);
+    api.setState("selectedUIPage", null);
+    api.setState("selectedTable", null);
+    api.setState("selectedTableDisplayVal", null);
+    api.setState("selectedRecord", null);
+    api.setState("selectedField", null);
+    api.setState("selectedRecordDisplayVal", null);
+    api.setState("selectedFieldDisplayVal", null);
+    api.setState("tableTypeaheadVal", null);
+    api.setState("recordTypeaheadEncQuery", null);
+    api.setState("fieldTypeaheadVal", null);
+    api.setState("clientScriptKeyword", null);
+    api.setState("showMandatoryError", false);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>ddtest456</sys_created_by>
+        <sys_created_on>2024-10-21 10:19:43</sys_created_on>
+        <sys_id>a9ddabbac35d1210cfaadacc050131e9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Clear resource targets</sys_name>
+        <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+        <sys_update_name>sys_ux_client_script_a9ddabbac35d1210cfaadacc050131e9</sys_update_name>
+        <sys_updated_by>ddtest456</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:19:43</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

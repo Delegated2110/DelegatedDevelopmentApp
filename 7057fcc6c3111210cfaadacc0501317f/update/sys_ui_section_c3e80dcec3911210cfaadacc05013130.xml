@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="c3e80dcec3911210cfaadacc05013130" sys_domain="global" table="cmdb_ci_acc" version="3" view="workspace-delegated-development-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>87e80dcec3911210cfaadacc05013134</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset_tag</element>
+            <position>1</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>8fe80dcec3911210cfaadacc05013132</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>83e80dcec3911210cfaadacc05013135</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>asset</element>
+            <position>3</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>87e80dcec3911210cfaadacc05013131</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>8be80dcec3911210cfaadacc05013133</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>5</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>83e80dcec3911210cfaadacc05013132</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>manufacturer</element>
+            <position>6</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>03e80dcec3911210cfaadacc05013134</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_date</element>
+            <position>7</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>0be80dcec3911210cfaadacc05013132</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>install_status</element>
+            <position>8</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>0fe80dcec3911210cfaadacc05013134</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>07e80dcec3911210cfaadacc05013133</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>10</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>0be80dcec3911210cfaadacc05013135</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>11</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_id>0fe80dcec3911210cfaadacc05013131</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="cmdb_ci_acc" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">c3e80dcec3911210cfaadacc05013130</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>cmdb_ci_acc</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3e80dcec3911210cfaadacc05013130</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci_acc</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+            <sys_update_name>sys_ui_section_c3e80dcec3911210cfaadacc05013130</sys_update_name>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:46</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace Delegated development 0" name="workspace-delegated-development-0">e088410edf9112102f6264cf9cafc17a</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

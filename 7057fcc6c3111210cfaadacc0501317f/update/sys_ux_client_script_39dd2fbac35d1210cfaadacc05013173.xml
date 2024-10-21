@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>9731cf5177c22110eba8fe21fe5a9906</includes>
+        <macroponent display_value="Home default copy Analyzer">41dd2f3ac35d1210cfaadacc050131c8</macroponent>
+        <name>Analyze permission handler</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var analyzeBy = api.state.selectedAnalyzeBy;
+    var userNotSelected = analyzeBy === "User" && api.state.selectedUser === null;
+    var groupNotSelected = analyzeBy === "Group" && api.state.selectedGroup === null;
+    var roleNotSelected = analyzeBy === "Role" && api.state.selectedRole === null;
+
+    if (userNotSelected || groupNotSelected || roleNotSelected) {
+        api.setState("showMandatoryError", true);
+        return;
+    }
+
+    var ruleType = api.state.selectedRuleType;
+    var mandatoryFieldsNotFilled = false;
+    if(ruleType === "record") {
+        mandatoryFieldsNotFilled = api.state.selectedTable === null || 
+            (api.state.selectedRecord === null && api.state.selectedField != null);
+    } else if(ruleType === "ui_page") {
+        mandatoryFieldsNotFilled = api.state.selectedUIPage === null ||
+            api.state.selectedUIPage.length == 0;
+    } else if(ruleType === "client_callable_script_include") {
+        mandatoryFieldsNotFilled = api.state.selectedClientScript === null ||
+            api.state.selectedClientScript.length == 0;
+    } else if(ruleType === "rest_endpoint") {
+        mandatoryFieldsNotFilled = api.state.selectedRESTEndpoint === null ||
+            api.state.selectedRESTEndpoint.length == 0;
+    }
+    
+    if (mandatoryFieldsNotFilled) {
+        api.setState("showMandatoryError", true);
+        return;
+    }
+
+    const {getAnalyzeBySysId, getOperationsByRuleType, getTargetNameByRuleType} = 
+        imports["sn_access_analyzer.AccessanalyzerUIUtil"]();
+    const entitySysIdVal = getAnalyzeBySysId(api);
+    const targetNameVal = getTargetNameByRuleType(api);
+    const operations = getOperationsByRuleType(api);
+    var request = {
+        entitySysId: entitySysIdVal,
+        entityType: api.state.selectedAnalyzeBy,
+        targetName: targetNameVal,
+        targetResource: api.state.selectedRuleType,
+        targetField: api.state.selectedField,
+        targetRecord: api.state.selectedRecord,
+        targetMethod: api.state.selectedRESTMethod,
+        targetOperations: operations
+    };
+    var results = api.data.debug_logs.execute({
+        "requestPayload":request
+    });
+    
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>ddtest456</sys_created_by>
+        <sys_created_on>2024-10-21 10:19:45</sys_created_on>
+        <sys_id>39dd2fbac35d1210cfaadacc05013173</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Analyze permission handler</sys_name>
+        <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+        <sys_update_name>sys_ux_client_script_39dd2fbac35d1210cfaadacc05013173</sys_update_name>
+        <sys_updated_by>ddtest456</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:19:45</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

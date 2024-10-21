@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="evaluation_execution" version="2" view="workspace-delegated-development-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="evaluation_execution" element="NULL" name="evaluation_execution" parent="NULL" relationship="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">8ee889cec3911210cfaadacc0501316b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_id>4ae889cec3911210cfaadacc0501316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>evaluation</element>
+            <list_id display_value="evaluation_execution" element="NULL" name="evaluation_execution" parent="NULL" relationship="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">8ee889cec3911210cfaadacc0501316b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_id>4ee889cec3911210cfaadacc0501316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>artifact_id</element>
+            <list_id display_value="evaluation_execution" element="NULL" name="evaluation_execution" parent="NULL" relationship="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">8ee889cec3911210cfaadacc0501316b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_id>42e889cec3911210cfaadacc0501316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="evaluation_execution" element="NULL" name="evaluation_execution" parent="NULL" relationship="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">8ee889cec3911210cfaadacc0501316b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_id>46e889cec3911210cfaadacc0501316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>start_date</element>
+            <list_id display_value="evaluation_execution" element="NULL" name="evaluation_execution" parent="NULL" relationship="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">8ee889cec3911210cfaadacc0501316b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_id>4ae889cec3911210cfaadacc0501316d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>end_date</element>
+            <list_id display_value="evaluation_execution" element="NULL" name="evaluation_execution" parent="NULL" relationship="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">8ee889cec3911210cfaadacc0501316b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_id>cae889cec3911210cfaadacc05013186</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="evaluation_execution" element="NULL" name="evaluation_execution" parent="NULL" relationship="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">8ee889cec3911210cfaadacc0501316b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_id>cee889cec3911210cfaadacc05013186</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="evaluation_execution" element="NULL" name="evaluation_execution" parent="NULL" relationship="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">8ee889cec3911210cfaadacc0501316b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_id>c2e889cec3911210cfaadacc05013187</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>evaluation_execution</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ee889cec3911210cfaadacc0501316b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>evaluation_execution</sys_name>
+            <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+            <sys_update_name>sys_ui_list_evaluation_execution_workspace-delegated-development-0</sys_update_name>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Delegated development 0" name="workspace-delegated-development-0">e088410edf9112102f6264cf9cafc17a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

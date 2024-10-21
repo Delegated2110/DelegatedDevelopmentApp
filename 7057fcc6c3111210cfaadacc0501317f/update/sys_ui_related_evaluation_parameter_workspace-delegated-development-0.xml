@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="evaluation_parameter" version="2" view="workspace-delegated-development-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="A/B Testing Evaluation Parameter - Workspace Delegated development 0" name="evaluation_parameter" related_list="NULL" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">d2e889cec3911210cfaadacc050131e1</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>evaluation_parameter_result.parameter</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:43</sys_created_on>
+            <sys_id>5ee889cec3911210cfaadacc050131e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:43</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>A/B Testing Evaluation Parameter - Workspace Delegated development 0</calculated_name>
+            <filter/>
+            <name>evaluation_parameter</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2e889cec3911210cfaadacc050131e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>A/B Testing Evaluation Parameter - Workspace Delegated development 0</sys_name>
+            <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+            <sys_update_name>sys_ui_related_evaluation_parameter_workspace-delegated-development-0</sys_update_name>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Delegated development 0" name="workspace-delegated-development-0">e088410edf9112102f6264cf9cafc17a</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

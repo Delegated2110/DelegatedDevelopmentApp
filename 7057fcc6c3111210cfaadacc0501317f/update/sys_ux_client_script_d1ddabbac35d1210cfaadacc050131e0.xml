@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes>9731cf5177c22110eba8fe21fe5a9906</includes>
+        <macroponent display_value="Home default copy Analyzer">41dd2f3ac35d1210cfaadacc050131c8</macroponent>
+        <name>Handle debug log response</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var response = event.payload.data.output;
+    var respObj = JSON.parse(response);
+    if (!respObj.pass) {
+        api.setState("debugLogErrorMsg", respObj.errorMessage);
+        return;
+    }
+    const {getOperationsByRuleType} = imports["sn_access_analyzer.AccessanalyzerUIUtil"]();
+    const operations = getOperationsByRuleType(api);
+    const operationsSysId = [];
+    for (var i=0; i<operations.length; i++) {
+        const aclOperationData = api.data.acl_operations_resources.results
+                .find(ele => ele.name.value === operations[i]);
+        operationsSysId.push(aclOperationData._row_data.uniqueValue);
+    }
+    var request = {
+        analyze_by: api.state.selectedAnalyzeBy,
+        user: api.state.selectedUser,
+        group: api.state.selectedGroup,
+        role: api.state.selectedRole,
+        target_table: api.state.selectedTable,
+        resource_type: api.state.selectedRuleType,
+        target_field: api.state.selectedField,
+        target_record: api.state.selectedRecord,
+        operations: operationsSysId,
+        short_description: api.state.description,
+        target_client_callable_script_include: api.state.selectedClientScript,
+        target_rest_endpoint: api.state.selectedRESTEndpoint,
+        target_rest_endpoint_method: api.state.selectedRESTMethod,
+        target_ui_page: api.state.selectedUIPage
+    };
+
+    api.data.save_request_and_debug_logs.execute({
+        "request": request,
+        "debugLogAPIResponse": response
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>ddtest456</sys_created_by>
+        <sys_created_on>2024-10-21 10:19:43</sys_created_on>
+        <sys_id>d1ddabbac35d1210cfaadacc050131e0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Handle debug log response</sys_name>
+        <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+        <sys_update_name>sys_ux_client_script_d1ddabbac35d1210cfaadacc050131e0</sys_update_name>
+        <sys_updated_by>ddtest456</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:19:43</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

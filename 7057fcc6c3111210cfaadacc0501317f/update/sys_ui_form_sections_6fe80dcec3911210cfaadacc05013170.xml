@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="6fe80dcec3911210cfaadacc05013170" sys_domain="global" table="sys_hub_action_input" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6be80dcec3911210cfaadacc05013176</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_action_input" name="sys_hub_action_input" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">6fe80dcec3911210cfaadacc05013170</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="sys_hub_action_input" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">e7e80dcec3911210cfaadacc05013175</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efe84dcec3911210cfaadacc050131ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_action_input" name="sys_hub_action_input" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">6fe80dcec3911210cfaadacc05013170</sys_ui_form>
+            <sys_ui_section caption="Reference Specification" display_value="Reference Specification" name="sys_hub_action_input" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">2fe84dcec3911210cfaadacc050131cd</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>27e84dcec3911210cfaadacc050131d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_action_input" name="sys_hub_action_input" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">6fe80dcec3911210cfaadacc05013170</sys_ui_form>
+            <sys_ui_section caption="Choice List Specification" display_value="Choice List Specification" name="sys_hub_action_input" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">a3e84dcec3911210cfaadacc050131d1</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abe84dcec3911210cfaadacc050131e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="sys_hub_action_input" name="sys_hub_action_input" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">6fe80dcec3911210cfaadacc05013170</sys_ui_form>
+            <sys_ui_section caption="Default Value" display_value="Default Value" name="sys_hub_action_input" sys_domain="global" view="e088410edf9112102f6264cf9cafc17a">63e84dcec3911210cfaadacc050131d4</sys_ui_section>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:48</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>sys_hub_action_input</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>ddtest456</sys_created_by>
+            <sys_created_on>2024-10-18 14:23:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6fe80dcec3911210cfaadacc05013170</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sys_hub_action_input</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Delegated development" source="x_838407_delegat_0">7057fcc6c3111210cfaadacc0501317f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Delegated development">7057fcc6c3111210cfaadacc0501317f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6fe80dcec3911210cfaadacc05013170</sys_update_name>
+            <sys_updated_by>ddtest456</sys_updated_by>
+            <sys_updated_on>2024-10-18 14:23:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Delegated development 0" name="workspace-delegated-development-0">e088410edf9112102f6264cf9cafc17a</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
